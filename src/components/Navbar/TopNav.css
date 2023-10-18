@@ -1,0 +1,56 @@
+
+.selectGroup{
+    padding: 3px;
+}
+
+.displayButton{
+    position: relative;
+}
+
+.dropOnClick{
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+.dropOnClick > *{
+    width: 100%;
+}
+
+.btn{
+    background:  #f8f8fa;
+    padding: 10px;
+    width: 20vh;
+    border: 1px solid silver;
+}
+
+.btn:hover{
+    cursor: pointer;
+    /* set background color to dark blue */
+    background: rgb(6, 6, 85);
+    color: white;
+}
+
+.selectStyle{
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}
+
+.selectStyle:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.top-header {
+    /* background-color: rgb(231, 231, 237); */
+    padding: 1.8vh;
+    background-color: darkblue;
+}
+
+

@@ -1,0 +1,31 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+}
+
+.dashCardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 250px;
+    border: 0.4px solid #348cea;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* when hover, darken the card */
+.dashCardContainer:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 20px 20px;
+    /* margin: 6px; */
+    transition: all 0.2s ease-in-out;
+    /* transform: scale(1.02); */
+    background: #9cc5f1;
+}
+
+
